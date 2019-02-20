@@ -29,3 +29,21 @@ Note 6 -- 布局
 Note 7 -- 版式
 
 第四部分 标记
+
+Note 8 -- 站点页面
+
+第五部分 JavaScript 
+
+Note 9 -- 页面突出显示 
+
+Note 10 -- JavaScript 幻灯片
+
+Note 11 -- 内部导航
+
+Note 12 -- JavaScript 图片库
+
+Note 13 -- 增强表格
+
+Note 14 -- 增强表单
+
+Note 15 -- 压缩代码
