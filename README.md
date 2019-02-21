@@ -10,7 +10,7 @@
 
 #### 第一部分 项目介绍
 
-- [Note 1 -- 原始资料](Project 1/Notes/Note1.md)
+- [Note 1 -- 原始资料](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note1.md)
 - Note 2 -- 站点结构
 
 #### 第二部分 设计
