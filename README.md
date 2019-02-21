@@ -10,34 +10,33 @@
 
 #### 第一部分 项目介绍
 
-- Note 1 -- 原始资料
+- [Note 1 -- 原始资料](Project 1/Notes/Note1.md)
 - Note 2 -- 站点结构
-- Note 3 -- 页面结构
 
 #### 第二部分 设计
 
-- Note 4 -- 页面元素
+- Note 3 -- 页面结构
 
 #### 第三部分 CSS
 
-- Note 5 -- 颜色
-- Note 6 -- 布局
-- Note 7 -- 版式
+- Note 4 -- 颜色
+- Note 5 -- 布局
+- Note 6 -- 版式
 
 #### 第四部分 标记
 
-- Note 8 -- 站点页面
+- Note 7 -- 站点页面
 
 #### 第五部分 JavaScript 
 
-- Note 9 -- 页面突出显示 
+- Note 8 -- 页面突出显示 
 
-- Note 10 -- JavaScript 幻灯片
-- Note 11 -- 内部导航
-- Note 12 -- JavaScript 图片库
-- Note 13 -- 增强表格
-- Note 14 -- 增强表单
-- Note 15 -- 压缩代码
+- Note 9 -- JavaScript 幻灯片
+- Note 10 -- 内部导航
+- Note 11 -- JavaScript 图片库
+- Note 12 -- 增强表格
+- Note 13 -- 增强表单
+- Note 14 -- 压缩代码
 
 
 
