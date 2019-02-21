@@ -11,11 +11,11 @@
 #### 第一部分 项目介绍
 
 - [Note 1 -- 原始资料](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note1.md)
-- Note 2 -- 站点结构
+- [Note 2 -- 站点结构](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note2.md)
 
 #### 第二部分 设计
 
-- Note 3 -- 页面结构
+- [Note 3 -- 页面结构](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note3.md)
 
 #### 第三部分 CSS
 
