@@ -10,7 +10,7 @@
 
 模板代码为：
 
-                 ```
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,6 +34,5 @@
    </article>
 </body>
 </html>
-                 ```
+```
 
- 
