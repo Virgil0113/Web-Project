@@ -10,6 +10,7 @@
 
 模板代码为：
 
+                 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,55 +34,5 @@
    </article>
 </body>
 </html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="utf-8" />
-   <title>New Rock Band</title>
-   <script src="scripts/modernizr-1.6.min.js"><script>
-</head>
-<body>
-   <header>
-       <nav>
-	      <ul>
-		     <li><a href="index.html">Home</a></li>
-			 <li><a href="about.html">About</a></li>
-			 <li><a href="photos.html">Photos</a></li>
-			 <li><a href="live.html">Live</a></li>
-			 <li><a href="contact.html">Contact</a></li>
-		  </ul>
-	   </nav>
-   </header>
-   <article>
-   </article>
-</body>
-</html>
-
-   <meta charset="utf-8" />
-   <title>New Rock Band</title>
-   <script src="scripts/modernizr-1.6.min.js"><script>
-</head>
-<body>
-   <header>
-       <nav>
-	      <ul>
-		     <li><a href="index.html">Home</a></li>
-			 <li><a href="about.html">About</a></li>
-			 <li><a href="photos.html">Photos</a></li>
-			 <li><a href="live.html">Live</a></li>
-			 <li><a href="contact.html">Contact</a></li>
-		  </ul>
-	   </nav>
-   </header>
-   <article>
-   </article>
-</body>
-</html> 
-
-
-
-
-
-
+                 ```
 
