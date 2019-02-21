@@ -10,7 +10,7 @@
 
 模板代码为：
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +27,7 @@
 			 <li><a href="photos.html">Photos</a></li>
 			 <li><a href="live.html">Live</a></li>
 			 <li><a href="contact.html">Contact</a></li>
-		  </ul>
+         </ul>
 	   </nav>
    </header>
    <article>
