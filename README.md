@@ -19,9 +19,9 @@
 
 #### 第三部分 CSS
 
-- Note 4 -- 颜色
-- Note 5 -- 布局
-- Note 6 -- 版式
+- [Note 4 -- 颜色](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note4.md)
+- [Note 5 -- 布局](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note5.md)
+- [Note 6 -- 版式](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note6.md)
 
 #### 第四部分 标记
 

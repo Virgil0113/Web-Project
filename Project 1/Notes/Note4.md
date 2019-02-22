@@ -1,4 +1,4 @@
-## Project 1 Web for a Rock Band Note 4 CSS
+## Project 1 Web for a Rock Band Note 4 颜色
 
 现在有了基本的 HTML 模板同过模板应用 CSS 可以在 Web 上实现设计的方案。把所有的 CSS 分别放在几个文件中，一个保存与整体布局有关的样式，一个作为专门的颜色样式表，第三个来保存与版式有关的样式：
 
