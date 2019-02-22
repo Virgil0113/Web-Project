@@ -14,4 +14,6 @@
 
 `@import url(typography.css)`
 
-把包含这三行代码的文件保存为 basic.css
+把包含这三行代码的文件保存为 basic.css，并放在 styles 文件夹中。如果想要添加一个新的样式表或者删除一个，只要编辑 basic.css 即可。
+
+可以在模板的 `<head>`元素中通过 `<link>`元素引入这个基本样式。然后再在页面 `<header>`中添加一个 `<img>`标签指向 logo 图片，此时在 `<article>`中添加一些临时性的填充文本。
