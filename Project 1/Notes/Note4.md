@@ -17,3 +17,34 @@
 把包含这三行代码的文件保存为 basic.css，并放在 styles 文件夹中。如果想要添加一个新的样式表或者删除一个，只要编辑 basic.css 即可。
 
 可以在模板的 `<head>`元素中通过 `<link>`元素引入这个基本样式。然后再在页面 `<header>`中添加一个 `<img>`标签指向 logo 图片，此时在 `<article>`中添加一些临时性的填充文本。
+
+                                            ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <title>New Rock Band</title>
+   <script src="scripts/modernizr-1.6.min.js"><script>
+   <link rel="stylesheet" media="screen" href="styles/basic.css">
+</head>
+<body>
+   <header>
+        <img src="images/logo.gif" alt="New Rock Band" />
+       <nav>
+	  <ul>
+	     <li><a href="index.html">Home</a></li>
+	     <li><a href="about.html">About</a></li>
+	     <li><a href="photos.html">Photos</a></li>
+	     <li><a href="live.html">Live</a></li>
+	     <li><a href="contact.html">Contact</a></li>
+          </ul>
+       </nav>
+   </header>
+   <article>
+       <h1>New Rock Band</h1>
+       <p>An introduction to New Rock Band Mike and Brad have known each other since 7th grade, they both went to Agoura high school, Brad was Phoenix's room mate in college, and Brad and Rob met when they both joined a band together. Mike met Joe at Art College. The origins of New Rock Band date right back to around 1994, To a band called 'Relative Degree', This band featured Brad and Rob, they played a few live shows, recorded some demo's and then fell apart. 
+   </article>
+</body>
+</html>
+                                            ```
+
