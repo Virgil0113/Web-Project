@@ -16,7 +16,7 @@
 <head>
    <meta charset="utf-8" />
    <title>New Rock Band</title>
-   <script src="scripts/modernizr-1.6.min.js"><script>
+   <script src="scripts/modernizr-custom.js"></script>
 </head>
 <body>
    <header>
