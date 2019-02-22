@@ -49,3 +49,14 @@
                                             ```
 
 如此一来基本的网页模型就完成了。
+
+---
+
+### 颜色
+
+样式表 color.css 是最直观的，为了避免某些看不到文本的意外，不管哪个元素应用什么颜色，都要给它一个背景颜色。
+
+编写完后的代码为——[code](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Code/styles/color.css)
+
+---
+
