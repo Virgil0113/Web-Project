@@ -8,11 +8,11 @@
 
 这些样式表都可以导入到一个基本的样式表中：
 
-`@import url(layout.css)`
+`@import url(layout.css);`
 
-`@import url(color.css)`
+`@import url(color.css);`
 
-`@import url(typography.css)`
+`@import url(typography.css);`
 
 把包含这三行代码的文件保存为 basic.css，并放在 styles 文件夹中。如果想要添加一个新的样式表或者删除一个，只要编辑 basic.css 即可。
 
@@ -31,13 +31,13 @@
    <header>
         <img src="images/logo.gif" alt="New Rock Band" />
        <nav>
-	  <ul>
+	    <ul>
 	     <li><a href="index.html">Home</a></li>
 	     <li><a href="about.html">About</a></li>
 	     <li><a href="photos.html">Photos</a></li>
 	     <li><a href="live.html">Live</a></li>
 	     <li><a href="contact.html">Contact</a></li>
-          </ul>
+        </ul>
        </nav>
    </header>
    <article>
@@ -67,3 +67,12 @@
 为了让导航中的链接水平排列，需要应用一些浮动效果。layout.css 的作用首先是为 HTML5 块元素定义默认的样式，主要针对那些不支持它的浏览器，好让这些元素都能够具有适当的块布局。
 
 其次是使用通配选择器把所有元素的内外边距设置为零。这样就把不同浏览器为元素设置的不同内外边距全都删除了。重设这些值后，所有的样式就可以一视同仁了。
+
+编写完后代码为——[code](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Code/styles/layout.css)
+
+这样通过 CSS  定义了颜色和布局，接下来考虑版式的问题。
+
+---
+
+### 版式
+
