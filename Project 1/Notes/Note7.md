@@ -10,3 +10,4 @@ and <a href="contact.html" title="Contact">get in touch with the band</a>.
 </p>
                             ```
 
+这样主页 index.html 就完成了，这段文字有以个 id 叫 “intro”，利用这个 id 为这段介绍添加特殊的样式。此外还可以利用这个 id 来添加一些 DOM 脚本。
