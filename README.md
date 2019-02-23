@@ -25,7 +25,7 @@
 
 #### 第四部分 标记
 
-- Note 7 -- 站点页面
+- [Note 7 -- 站点页面]((https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note7.md)
 
 #### 第五部分 JavaScript 
 
