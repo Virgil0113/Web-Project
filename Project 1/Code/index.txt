@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <title>New Rock Band</title>
+   <script src="scripts/modernizr-custom.js"></script>
+   <link rel="stylesheet" media="screen" href="styles/basic.css" />
+</head>
+<body>
+   <article>
+       <h1>Welcom</h1>
+       <p id="intro">Welcome to official website of New Rock Band.
+          Here, you can <a href="about.html" title="About">learn more about the band</a>,
+          view <a href="photos.html" title="Photos">photos of the band</a>,
+          find out about <a href="live.html" title="Tour Date">tour dates</a> 
+          and <a href="contact.html" title="Contact">get in touch with the band</a>.
+       </p>
+   </article>
+</body>
+</html>
