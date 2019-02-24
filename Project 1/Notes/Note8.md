@@ -33,3 +33,18 @@ function insertAfter(newElement,targetElement) {
 ```
 
 接下来是添加 addClass 函数
+
+```html
+function addClass(element,value) {
+  if (!element.className) {
+    element.className = value; 
+  }
+  else {
+    newClassName = element.className;
+    newClassName += "";
+    newClassName += value;
+    element.className = newClassName; 
+  }
+}
+```
+
