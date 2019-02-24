@@ -77,3 +77,36 @@ header nav a.here:active {
 }
 ```
 
+为了应用刚刚定义的颜色样式，为指向当前页面的导航链接添加 here 类：
+
+`<li><a href="index.html" class="here">Home</a></li>`
+
+但在实际的网站开发中不太可能一页一页的编辑导航链接，这时就可以使用 JavaScript 来帮忙。首先删除已经添加到导航链接中的所有 class 属性。然后编写一个 hightlightPage 函数，完成下列操作：
+
+1. 取得导航列表中所有链接；
+2. 循环遍历这些链接；
+3. 如果发现了与当前 URL 匹配的链接，为它添加 here 类
+
+将 hightlightPage 函数添加到 global.js 文件中：
+
+```js
+function hightlightPage() {
+  if (document.getElementsByTagName) return false;
+  if (document.getElementById) return false;
+  var headers = docuemnt.getElemensByTagName('header');
+  if (headers.length == 0) return false;
+  var navs = header[0].getElementsByTagName('nav');
+  if (navs.length == 0) return false;
+  var links = navs[0].getElementsTagName("a");
+  var linkurl;
+  for (var i=0; i<links.length; i++) {
+    linkurl = links[i].getAttribute("href");
+    if (window.location.href.indexOf(linkurl) !=-1){
+      links[i].className = "here";
+    }
+  }
+}
+addLoadEvent(hightlightPag);
+```
+
+这里使用到了 `window.locatio.href`来取得当前页面链接的 URL。并使用 indexOf 方法来比较字符串。因为这里我们只需要知道某个字符串是否被包含在另外一个字符串中，是否是当前 URL 里的链接 URL。运用 `currentul.indexOf(linkurl)`，如果没有匹配到，indexOf 方法将会返回-1，如果返回其他值则表示有匹配。
