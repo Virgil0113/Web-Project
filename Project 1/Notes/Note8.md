@@ -57,3 +57,23 @@ function addClass(element,value) {
 </html>
  ```
 
+这样，站点中的每个页面都包含 global.js 文件，而其中的函数也可以在这些页面里共享了。
+
+---
+
+### 页面突出
+
+当前页面的导航链接是需要突显示的，通过突出显示，访客就能知道自己“现在在这里”。
+
+修改 color.css 文件，添加为 here 类定义的样式：
+
+```css
+header nav a.here:link,
+header nav a.here:visited,
+header nav a.here:hover,
+header nav a.here:active {
+  color: #eef;
+  background-color: #799;
+}
+```
+
