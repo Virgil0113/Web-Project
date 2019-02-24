@@ -5,7 +5,7 @@
 首先在 scripts 文件夹中创建 global.js。然后在其中添加几个整个站点都会用到的函数。
 
 先添加的是 addLoadEvent 函数,文档全部加载后如果想要运行某个函数就要用到它。
-```html
+```js
 function addLoadEvent(func) {
   var oldload = window.onload;
   if (typeof window.onload != 'function') {
@@ -20,7 +20,7 @@ function addLoadEvent(func) {
 
 还有 insertAfter 函数，它与 inserBefore 方法正好对应。
 
-```html
+```js
 function insertAfter(newElement,targetElement) {
   var parent = targetElement.parentNode;
   if (parent.lastChild == targetElement) {
@@ -34,7 +34,7 @@ function insertAfter(newElement,targetElement) {
 
 接下来是添加 addClass 函数
 
-```html
+```js
 function addClass(element,value) {
   if (!element.className) {
     element.className = value; 
@@ -47,4 +47,13 @@ function addClass(element,value) {
   }
 }
 ```
+
+要调用整个脚本，需要在模板页面 index.html 结束的 `</body>`标签之前添加一个 `<script>`标签：
+
+ ```html
+</article>
+<script src="scripts/global.js"></script>
+</body>
+</html>
+ ```
 
