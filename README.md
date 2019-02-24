@@ -29,7 +29,7 @@
 
 #### 第五部分 JavaScript 
 
-- Note 8 -- 页面突出显示 
+- [Note 8 -- 页面突出显示](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note8.md) 
 
 - Note 9 -- JavaScript 幻灯片
 - Note 10 -- 内部导航
