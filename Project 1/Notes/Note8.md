@@ -110,3 +110,36 @@ addLoadEvent(hightlightPag);
 ```
 
 这里使用到了 `window.locatio.href`来取得当前页面链接的 URL。并使用 indexOf 方法来比较字符串。因为这里我们只需要知道某个字符串是否被包含在另外一个字符串中，是否是当前 URL 里的链接 URL。运用 `currentul.indexOf(linkurl)`，如果没有匹配到，indexOf 方法将会返回-1，如果返回其他值则表示有匹配。
+
+利用 hightlightPag 函数还可以到达一箭双雕的目的。通过给每个页面的 body 元素添加 id 属性，可以为每个页面应用不同的样式。为了取得并使用当前链接（即添加 here 类的链接）中的文本，需要使用 JavaScript 的 toLowerCase 方法把该文本转换成小写形式：
+
+`var linktext = link[i].lastChild.nodeValue.toLowerCase();`
+
+这样就取得了当前链接最后一个子元素的值，也就是链接的文本，然后把它转换成小写形式。通过下面的语句就可以把这个变量的值设置伪 body 元素的 id 属性了:
+
+`document.body.setAttribute("id",linktext);`
+
+现在的 hightlightPag 函数为：
+
+```js
+function hightlightPage() {
+  if (document.getElementsByTagName) return false;
+  if (document.getElementById) return false;
+  var headers = docuemnt.getElemensByTagName('header');
+  if (headers.length == 0) return false;
+  var navs = header[0].getElementsByTagName('nav');
+  if (navs.length == 0) return false;
+  var links = navs[0].getElementsTagName("a");
+  var linkurl;
+  for (var i=0; i<links.length; i++) {
+    linkurl = links[i].getAttribute("href");
+    if (window.location.href.indexOf(linkurl) !=-1){
+      links[i].className = "here";
+      var linktext = links[i].lastChild.nodeValue.toLowerCase();
+      document.body.setAttribute("id",linktext);
+    }
+  }
+}
+addLoadEvent(hightlightPag);
+```
+
