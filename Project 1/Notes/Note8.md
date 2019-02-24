@@ -9,7 +9,10 @@
 function addLoadEvent(func) {
   var oldload = window.onload;
   if (typeof window.onload != 'function') {
-    window.onload = function() {
+    window.onload = func;
+  }
+  else {
+    window.onload = function {
       oldonload();
       func();
     }
@@ -143,3 +146,23 @@ function hightlightPage() {
 addLoadEvent(hightlightPag);
 ```
 
+于是，index.html 文件中的 body 元素就会有一个值为 “home” 的 id，about.html 文件中的 id 就是 “about”， photos.html 文件中的 id 将是 “photos”，以此类推。
+
+接下来就可以为每个页面制作一幅图像，然后在 layout.css 文件中添加 background-image 声明：
+
+```css
+#about header {
+  background-image: url(../images/lineup.gif);
+}
+#photos header {
+  background-image: url(../images/basshead.gif);
+}
+#live header {
+  background-image: url(../images/bassist.gif);
+}
+#contact header {
+  background-image: url(../images/drummer.gif);
+}
+```
+
+这样一来每个页面的头部就会应用不同的背景图像了。
