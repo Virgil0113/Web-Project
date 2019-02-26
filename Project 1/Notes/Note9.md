@@ -49,3 +49,25 @@ function moveElement(elementID,final_x,final_y,interval) {
 ```
 
 现在应该创建幻灯片的元素并准备相应的链接了，把幻灯片直接放在文档中的 “intro” 段落后面。
+
+```js
+function prepareSlideshow() {
+  if (!document.getElementsByTagName) return false;
+  if (!document.getElementById) return false;
+  if (!document.getElementById("intro")) return false;
+  var intro = document.getElementById("intro");
+  var slideshow = document.createElement("div");
+  slideshow.setAttribute("id","slideshow");
+  var frame = document.createElement("img");
+  frame.setAttribute("src","images/frame.gif");
+  frame.setAttribute("alt","");
+  frame.setAttribute("id","frame");
+  slideshow.appendChild(frame);
+  var preview = document.createElement("img");
+  preview.setAttribute("src","images/slideshow.gif");
+  preview.setAttribute("alt","a glimpse of what awaits you");
+  preview.setAttribute("id","preview");
+  slideshow.appendChild(preview);
+  insertAfter(slideshow,intro);
+```
+
