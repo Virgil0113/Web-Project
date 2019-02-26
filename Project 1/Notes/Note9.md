@@ -101,3 +101,23 @@ function prepareSlideshow() {
 }
 ```
 
+还要通过 addLoadEvent 调用这个函数：
+
+`addLoadEvent(prepareSlideshow);`
+
+保存 global.js 文件。还得更新样式，在 layout.css 中添加如下声明：
+
+```css
+#slideshow {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+#preview {
+  position: absolute;
+  border-width: 0;
+  outline-width: 0;
+}
+```
+
