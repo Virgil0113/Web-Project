@@ -71,3 +71,33 @@ function prepareSlideshow() {
   insertAfter(slideshow,intro);
 ```
 
+接着循环遍历 “intro” 段落中的所有链接，并根据当前鼠标所在的链接来移动 preview 元素。如果链接的 href 值中包含字符串 “about.html”，就把 preview 元素移动到 -150px 的位置上；如果链接的 href 值中包含字符串 “photos.html”，就把 preview 元素移动到 -300px 的位置上，以此内推。
+
+为了让动画效果更加好看，给 moveElement 函数传入仅为5毫秒的 interval 值：
+
+```js
+ var links = document.getElementsByTagName("a");
+  var destination;
+  for (var i=0; i<links.length; i++) {
+    links[i].onmouseover = function() {
+      destination = this.getAttribute("href");
+      if (destination.indexOf("index.html") !=-1) {
+        moveElement("preview",0,0,5);
+      }
+      if (destination.indexOf("about.html") !=-1) {
+        moveElement("preview",-150,0,5);
+      }
+      if (destination.indexOf("photos.html") !=-1) {
+        moveElement("preview",-300,0,5);
+      }
+      if (destination.indexOf("live.html") !=-1) {
+        moveElement("preview",-450,0,5);
+      }
+      if (destination.indexOf("contact.html") !=-1) {
+        moveElement("preview",-600,0,5);
+      }
+    }
+  }
+}
+```
+
