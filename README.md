@@ -31,7 +31,7 @@
 
 - [Note 8 -- 页面突出显示](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note8.md) 
 
-- Note 9 -- JavaScript 幻灯片
+- [Note 9 -- JavaScript 幻灯片](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note9.md)
 - Note 10 -- 内部导航
 - Note 11 -- JavaScript 图片库
 - Note 12 -- 增强表格
