@@ -122,3 +122,4 @@ function prepareSlideshow() {
 ```
 
 这样，把鼠标放在导航链接上，也将会触发幻灯片。
+
