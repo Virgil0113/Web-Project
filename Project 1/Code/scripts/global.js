@@ -167,3 +167,4 @@ function prepareInternalnav() {
     }
   }
 }
+addLoadEvent(prepareInternalnav);
