@@ -8,6 +8,8 @@
 
 ### Project 1 Web for a Rock Band
 
+Process(10/14)
+
 #### 第一部分 项目介绍
 
 - [Note 1 -- 原始资料](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note1.md)
@@ -32,7 +34,7 @@
 - [Note 8 -- 页面突出显示](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note8.md) 
 
 - [Note 9 -- JavaScript 幻灯片](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note9.md)
-- Note 10 -- 内部导航
+- [Note 10 -- 内部导航](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note10.md)
 - Note 11 -- JavaScript 图片库
 - Note 12 -- 增强表格
 - Note 13 -- 增强表单
