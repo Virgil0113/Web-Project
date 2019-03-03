@@ -71,4 +71,4 @@ function prepareInternalnav() {
 
 
 
-  
+  这样就完成了隐藏页面的功能，页面越长这个功能的效果越明显。
