@@ -35,7 +35,7 @@ Process(10/14)
 
 - [Note 9 -- JavaScript 幻灯片](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note9.md)
 - [Note 10 -- 内部导航](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note10.md)
-- Note 11 -- JavaScript 图片库
+- [Note 11 -- JavaScript 图片库](https://github.com/Virgil0113/Web-Project/blob/master/Project%201/Notes/Note11.md)
 - Note 12 -- 增强表格
 - Note 13 -- 增强表单
 - Note 14 -- 压缩代码
