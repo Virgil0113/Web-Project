@@ -16,5 +16,4 @@
 - thumbnail_guitarist.jpg
 - thumbnail_crowd.jpg
 
-创建一组链接，指向
-
+创建一组链接，指向全尺寸照片。为这个列表指定 id 为 “imagegalery”。在每个链接中添加一个 `<image>`标签，各个标签的 src 属性分别指向不同的缩略图。
