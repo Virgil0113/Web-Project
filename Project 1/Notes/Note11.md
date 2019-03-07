@@ -44,3 +44,12 @@
        </ul>
 ```
 
+更新 layout.css 文件，让缩略图从垂直排列变成水平排列：
+
+```css
+#imagegallery li {
+    display:inline;
+}
+```
+
+为了让
