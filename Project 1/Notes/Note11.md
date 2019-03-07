@@ -56,3 +56,34 @@
 
 接下来更新 scripts 文件夹中的 global.js 文件：
 
+```js
+function showPic(whichpic){
+  if (!document.getElementById("placeholder")) return true;
+  var source = whichpic.getAttribute("href");
+  var placeholder = document.getElementById("placeholder");
+  placeholder.setAttribute("src",source);
+  if (document.getElementsById("description")) return false;
+  if (whichpic.getAttribute("title")) {
+    var text = whichpic.getAttribute("title");
+  } else {
+    var text = "";
+  }
+  var description = document.getElementById("description");
+  description.firstChild.nodeValue = text;
+  }
+  return false;
+}
+
+function prepareGallery() {
+  var gallery = document.getElementById("imagegallery");
+  var links = gallery.getElementsByTagName("a");
+  for (var i=0; i < links.length; i++) {
+     links[i].onclick = function() {
+        showPic(this);
+        return false;
+     }
+  }
+}
+
+```
+
